@@ -1,0 +1,405 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+body {
+  font-family: 'Roboto', 'sans-serif';
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 56px;
+}
+
+.header .banner h3 {
+  font-size: 24px;
+  line-height: 1.75;
+  font-weight: bold;
+}
+
+.header .banner h1 {
+  font-size: 80px;
+  line-height: 1.3;
+  margin-bottom: 32px;
+}
+
+.header .banner p {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.header .mb-1 {
+  margin-bottom: 40px;
+}
+
+.contactList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contactList li {
+  padding-right: 16px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .about {
+  text-align: center;
+}
+
+.main .about h2 {
+  font-size: 64px;
+  line-height: 1.31;
+  margin-bottom: 40px;
+}
+
+.main .about img {
+  margin-bottom: 20px;
+}
+
+.main .about p {
+  width: 412px;
+  font-size: 24px;
+  line-height: 1.5;
+  padding-bottom: 4px;
+  font-weight: bold;
+}
+
+.main .about .pb-1 {
+  padding-bottom: 4px;
+}
+
+.main .about .pb-2 {
+  padding-bottom: 8px;
+}
+
+.main .about .pb-3 {
+  padding-bottom: 24px;
+}
+
+.main .about ul {
+  border-top: 1px solid black;
+  padding-top: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .about ul li {
+  list-style-type: disc;
+  font-size: 24px;
+  line-height: 1.75;
+  padding-bottom: 28px;
+  font-weight: bold;
+}
+
+.main .about ul .dot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .about ul .dot:before {
+  content: '';
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.main .myBrand {
+  background-color: black;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 56px;
+  padding-bottom: 160px;
+  margin-bottom: 56px;
+}
+
+.main .myBrand h2 {
+  font-size: 64px;
+  line-height: 1.31;
+  margin-bottom: 12px;
+}
+
+.main .myBrand h3 {
+  font-size: 24px;
+  line-height: 1.75;
+  padding-bottom: 32px;
+}
+
+.main .myBrand P {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.main .myBrand .pb-4 {
+  padding-bottom: 68px;
+}
+
+.main .myWorks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .myWorks .upperWork {
+  padding-bottom: 40px;
+}
+
+.main .myWorks .lowerWork img {
+  padding-right: 24px;
+}
+
+.main .myWorks .lowerWork img:last-child {
+  padding-right: 0px;
+}
+
+.main .otherWorks {
+  text-align: center;
+  margin-bottom: 144px;
+}
+
+.main .otherWorks .workList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 48px;
+  margin-top: 56px;
+}
+
+.main .otherWorks h2 {
+  font-size: 64px;
+  line-height: 1.31;
+  margin-bottom: 16px;
+}
+
+.main .otherWorks p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.main .otherWorks .works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+
+.main .otherWorks .works p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 16px;
+}
+
+.main .otherWorks .works img {
+  width: 100%;
+}
+
+.footer {
+  background-color: black;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 64px 0px;
+}
+
+.footer .contactDetails h2 {
+  font-size: 64px;
+  line-height: 1.3;
+  padding-bottom: 16px;
+}
+
+.footer .contactDetails li {
+  font-size: 24px;
+  line-height: 1.5;
+  padding-bottom: 16px;
+}
+
+.footer .contactDetails li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .contactDetails li a:hover {
+  color: yellow;
+}
+
+.footer .contactDetails p:last-child {
+  padding-bottom: 0px;
+}
+/*# sourceMappingURL=index.css.map */
